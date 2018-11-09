@@ -1,23 +1,11 @@
 {
-  "name": "flux",
+  "name": "dumb-flux",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "directories": {
     "lib": "lib"
   },
-  "scripts": {
-    "start": "NODE_ENV='dev' webpack --mode='development' --watch",
-    "lint": "tslint -c tslint.json 'lib/**/*.ts' --fix"
-  },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "ts-loader": "^5.3.0",
-    "tslint": "^5.11.0",
-    "typescript": "^3.1.6",
-    "webpack": "^4.24.0",
-    "webpack-cli": "^3.1.2"
-  }
+  "license": "ISC"
 }
